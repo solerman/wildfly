@@ -29,7 +29,7 @@
     <parent>
         <groupId>org.wildfly</groupId>
         <artifactId>wildfly-parent</artifactId>
-        <version>10.2.0.Final-SNAPSHOT</version>
+        <version>10.2.0-WONDER</version>
     </parent>
 
     <artifactId>wildfly-jaxrs</artifactId>
@@ -114,11 +114,6 @@
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-jaxrs</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.jboss.resteasy</groupId>
-            <artifactId>async-http-servlet-3.0</artifactId>
         </dependency>
 
         <dependency>
